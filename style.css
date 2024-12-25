@@ -1,0 +1,240 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #cec2c2;
+}
+header {
+    background-color: #f5e9e4;
+    color: #000;
+    padding: 10px 0;
+    text-align: center;
+    font-size: 14px;
+}
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #000;
+}
+.navbar img {
+    height: 50px;
+}
+.navbar ul {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+.navbar ul li {
+    margin: 0 15px;
+}
+.navbar ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 16px;
+}
+.navbar div {
+    color: #fff;
+}
+.hero {
+    position: relative;
+    text-align: center;
+    color: white;
+}
+.hero img {
+    width: 80%;
+    height: auto;
+}
+.hero-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 20px;
+}
+.hero-text h1 {
+    font-family: 'Playfair Display', serif;
+    font-size: 48px;
+    margin: 0;
+}
+.hero-text button {
+    background-color: #000;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 16px;
+}
+.section-title {
+    text-align: center;
+    font-family: 'Playfair Display', serif;
+    font-size: 24px;
+    margin: 40px;
+}
+.products, .clients {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin: 30px;
+}
+.product, .client {
+    text-align: center;
+    margin: 20px;
+}
+.product img, .client img {
+    width: 200px;
+    height: 200px;
+}
+.product p, .client p {
+    margin: 10px 0;
+}
+.product button, .client button {
+    background-color: #000;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 16px;
+}
+.join-us {
+    background-color: #f5f5f5;
+    text-align: center;
+    padding: 40px 20px;
+}
+.join-us input {
+    padding: 10px;
+    margin: 10px;
+    width: 200px;
+}
+.join-us button {
+    background-color: #000;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 16px;
+}
+.footer {
+    background-color: #333;
+    color: #ccc;
+    padding: 20px 0;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.footer .logo, .footer .contact, .footer .subscribe {
+    flex: 1;
+    min-width: 200px;
+    margin: 10px;
+}
+.footer .logo img {
+    width: 50px;
+    height: 50px;
+}
+.footer .logo p {
+    margin: 10px 0 0;
+}
+.footer .contact p, .footer .subscribe p {
+    margin: 5px 0;
+}
+.footer .subscribe input[type="email"] {
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    margin-right: 10px;
+}
+.footer .subscribe button {
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #555;
+    color: #fff;
+}
+.footer .social-icons a {
+    color: #ccc;
+    margin: 0 10px;
+    font-size: 20px;
+}
+.footer .social-icons a:hover {
+    color: #fff;
+}
+.footer .copyright {
+    text-align: center;
+    width: 100%;
+    margin-top: 20px;
+    border-top: 1px solid #444;
+    padding-top: 10px;
+    color: #777;
+}
+
+
+
+/* about */
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #f5f5f5;
+    margin: 0;
+    padding: 0;
+    color: #333;
+    font-size: 20px;
+}
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.container h1{
+    text-align: center;
+}
+.section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-bottom: 40px;
+    background-color: #fff;
+    padding: 20px;
+    border: 1px solid #e0e0e0;
+}
+.section img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+.text-content {
+    flex: 1;
+    padding: 20px;
+}
+.text-content h2 {
+    font-family: 'Playfair Display', serif;
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+.text-content p {
+    font-size: 16px;
+    line-height: 1.6;
+    margin-bottom: 20px;
+    text-align: justify;
+}
+.text-content a {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #e0d4c3;
+    color: #333;
+    text-decoration: none;
+    border-radius: 4px;
+    font-weight: 500;
+}
+@media (max-width: 768px) {
+    .section {
+        flex-direction: column;
+    }
+    .text-content {
+        padding: 10px 0;
+    }
+}
