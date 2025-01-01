@@ -1,0 +1,61 @@
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+    <title>Checkout Product</title>
+    <link href="/styles/styleShopNow.css" rel="stylesheet" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&amp;display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <nav class="navbar">
+      <img src="https://placehold.co/150x50" alt="The Luxe Style Logo" />
+      <ul>
+        <li><a href="index.html">HOME</a></li>
+        <li><a href="about.html">ABOUT</a></li>
+        <li><a href="#">SHOP</a></li>
+        <li><a href="contact.html">CONTACT</a></li>
+      </ul>
+      <div>
+        <i class="fas fa-search"></i>
+      </div>
+    </nav>
+    <div class="container">
+      <div class="product-details">
+        <img src="images/cushion.jpeg" alt="" />
+        <h2>Bearme Cushion</h2>
+        <p>Huis Elite: The Complete Smart Home App UI Kit for Modern Living</p>
+        <p class="price">Rp 30.288.000</p>
+      </div>
+      
+      <div class="payment-details">
+        <h3>Transfer to:</h3>
+        <div class="form-group">
+          <label for="bank-name"> Bank Name </label>
+          <input id="bank-name" readonly="" type="text" value="BCA" />
+        </div>
+        <div class="form-group">
+          <label for="account-name"> Account Name </label>
+          <input id="account-name" readonly="" type="text" value="Ajik" />
+        </div>
+        <div class="form-group">
+          <label for="account-number"> Account Number </label>
+          <input
+            id="account-number"
+            readonly=""
+            type="text"
+            value="1203 1029 3012 9"
+          />
+        </div>
+        <h3>Confirm Payment</h3>
+
+        <div class="form-group">
+          <input id="proof-of-payment" type="file" />
+        </div>
+        <button class="checkout-btn">Checkout Now</button>
+      </div>
+    </div>
+  </body>
+</html>
